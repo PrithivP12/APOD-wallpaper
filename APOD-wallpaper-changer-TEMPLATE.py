@@ -7,7 +7,7 @@ import re
 import struct
 import ctypes
 
-apirawdata = requests.get("https://api.nasa.gov/planetary/apod?api_key=<INSERT YOUR API KEY HERE>&hd=true")  #NOTE: REPLACE <INSERT YOUR API KEY HERE> WITH YOUR API KEY (DON'T INCLUDE <>)
+apirawdata = requests.get("https://api.nasa.gov/planetary/apod?api_key=<nnYV5OIeodUmpWegH54Roc55LuZwCuHE4RwAC93d>&hd=true")  #NOTE: REPLACE <INSERT YOUR API KEY HERE> WITH YOUR API KEY (DON'T INCLUDE <>)
 
 apidata = apirawdata.json()
 
